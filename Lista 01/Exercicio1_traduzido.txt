@@ -1,0 +1,21 @@
+manter uma lista completa de todas as bicicletas e os seus detalhes, incluindo o número de bicicletas, tipo, tamanho, marca, modelo, taxa de carga diária, o depósito (o que já está no sistema de rodas).
+
+manter um registro de todos os clientes e as suas operações de aluguer últimos
+
+trabalhar fora automaticamente o quanto isso vai custar para contratar um determinado bicicleta para um determinado número de dias
+
+registrar os detalhes de uma transação de aluguer, incluindo a data de início, duração estimada, de clientes e de bicicleta, de tal forma que é fácil de encontrar os detalhes da transação relevantes quando uma bicicleta é devolvido
+
+manter o controle de quantas bikes um cliente está contratando para que o cliente recebe um recibo unificada não um separado para cada bicicleta
+
+lidar com um cliente que emprega mais do que uma bicicleta, cada uma para diferentes quantidades de tempo.
+
+trabalhar automaticamente, no retorno de uma bicicleta, o tempo que ele foi contratado para, quantos dias foram originalmente pago, quanto extra é devido.
+
+gravar o valor total devido e quanto foi pago.
+
+imprimir um recibo para cada cliente
+
+acompanhar o estado de cada bicicleta, por exemplo, se é em estoque, alugados ou a ser reparado.
+
+fornecer os meios para gravar detalhes adicionais sobre bicicletas especializadas.

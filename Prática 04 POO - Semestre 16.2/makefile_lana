@@ -1,0 +1,5 @@
+all: Conexao.o Estado.o Conectado.o Desconectado.o Main.cpp
+	g++ -o Conexao Main.cpp Conexao.o Estado.o Conectado.o Desconectado.o 
+	
+run: 
+	./Conexao < entrada.txt

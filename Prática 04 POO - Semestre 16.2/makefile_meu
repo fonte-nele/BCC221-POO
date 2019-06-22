@@ -1,0 +1,18 @@
+SRC = $(wildcard *.cpp) 
+OBJS = $(SRC:.cpp=.o)
+all: programa
+	@echo "Compilacao concluida com sucesso!!!"
+programa: $(OBJS)
+	@echo Criando arquivo executavel: $@
+	@g++ $(OBJS) -o $@
+%.o: %.cpp
+	@echo Compilando arquivo objeto: $@
+	@g++ -c $< -o $@ -Wall
+	
+#Caso queira apagar os arquivos .o gerados!!
+#clean:
+#	@echo "Limpando arquivos"
+#	-@rm -f *.o main *~
+
+run:
+	./programa < entrada.txt 
